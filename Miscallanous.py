@@ -12,7 +12,7 @@ driver.get('https://rahulshettyacademy.com/AutomationPractice/')
 
 time.sleep(5)
 # driver.execute_script("window.scrollBy(0,document.body.scrollHeight)")
-driver.execute_script(("window.scrollBy(0,500)"))
+driver.execute_script(("window.scrollBy(0,700)"))
 driver.get_screenshot_as_file("screen_shot_1.png")
 
 
